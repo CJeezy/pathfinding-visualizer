@@ -1,0 +1,21 @@
+.header{
+    background-color: rgb(90, 235, 90);
+}
+
+.main-text{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+
+}
+
+.about-text{
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+
+}
+
+.howto-text{
+    display: flex;
+}

@@ -1,0 +1,95 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+  }
+  
+  .node-finish {
+    background-color: red;
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-visited {
+    animation-name: visitNode;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes visitNode {
+    0% {
+      transform: scale(0.2);
+      background-color: rgb(12, 219, 255);
+    }
+    50% {
+      transform: scale(0.5);
+      background-color: rgb(12, 219, 255);
+    }
+    100% {
+      transform: scale(1.0);
+      background-color: rgb(12, 219, 255);
+    }
+  }
+  
+  
+  .node-wall {
+    animation-name: wallNode;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0.1s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes wallNode {
+    0% {
+      transform: scale(0.2);
+      background-color: rgb(71, 71, 71);
+    }
+    50% {
+      transform: scale(0.5);
+      background-color: rgb(71, 71, 71);
+    }
+    100% {
+      transform: scale(1.0);
+      background-color: rgb(71, 71, 71);
+    }
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color:  gold;
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color: gold;
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: gold;
+    }
+  }
