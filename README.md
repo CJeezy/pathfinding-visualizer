@@ -1,4 +1,5 @@
-#Pathfinding Visualizer
+# Pathfinding Visualizer
+Creates a visual representation of popular pathfinding algorithnms. Currently only supporting Dijkstra's Algorithm with plans of implementing A*, DFS, BFS, etc.
 
 # Getting Started with Create React App
 
